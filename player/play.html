@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--template compile at 2016-02-23 08:30:33-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content=" initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title> 奥点云 —— 管理控制台 </title>
+</head>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<style type="text/css">
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    #ewm {
+        background-color: #fff;
+        border: 1px solid #d7d7d7;
+        position: fixed;
+        right: 100px;
+        top: 60px;
+    }
+
+    #ewm img {
+        border: 0 none;
+        height: 300px;
+        width: 300px;
+    }
+    #ewm p {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    #ewm span {
+        color: #e35c1d;
+        font-size: 16px;
+    }
+</style>
+
+<body>
+
+<script type="text/javascript" src="player.js"></script>
+<script type="text/javascript" src="md5.js"></script>
+
+<script type="text/javascript">
+
+    var appId = 'baicizhan_demo';
+    var stream= 'stream';
+    var uid = '8809';
+    var playpwd = '';
+    var hlsPlayPwd = '';
+    var now = '1451011280';
+
+    var hlsSite='http://'+uid+'.hlsplay.aodianyun.com/'+appId;
+    hlsSite += '/' + stream + '.m3u8' + (hlsPlayPwd == '' ? '' : '?k=' + md5(appId + stream + hlsPlayPwd + now) + '&t=' + now);
+    var rtmpSite= 'rtmp://'+uid+'.lssplay.aodianyun.com/';
+    rtmpSite+= appId + '/' + stream + (playpwd == '' ? '' : '?k=' + md5(appId + stream + playpwd + now) + '&t=' + now);
+    var objectPlayer=new aodianPlayer({
+        container:'play',//播放器容器ID，必要参数
+        rtmpUrl:"",
+        hlsUrl:hlsSite,
+        width: '600',//播放器宽度，可用数字、百分比等
+        height: '400',//播放器高度，可用数字、百分比等
+        autostart: true//是否自动播放，默认为false
+    });
+
+</script>
+
+</body>
+</html>
