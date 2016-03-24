@@ -1,0 +1,362 @@
+  
+amazon:
+  host: 121.199.13.228
+  usr: www
+  pwd: www2education
+
+lasvegas:
+    host: 121.199.27.215
+    usr: www
+    pwd: wwwlasvegasgogogo
+        
+    
+hawaii:
+    host: 121.199.27.33
+    usr: www
+    pwd: wwwhawaiigogogo
+    
+berlin:
+    host: 112.124.100.121
+    usr: www
+    pwd: wwwberlingogogo
+    
+    
+arsenal:
+    host: 112.124.46.107
+    usr: www
+    pwd: wwwarsenalgogogo
+
+    
+chelsea:
+    host: 115.29.175.119
+    usr: www
+    pwd: wwwchelseagogogo
+    
+    
+dortmund:
+    host: 115.29.15.184
+    usr: www
+    pwd: wwwdortmundgogogo
+    
+   
+golf:
+    host: 115.29.245.34
+    usr: www
+    pwd: wwwgolfgogogo
+    
+    
+klose:
+    host: 121.40.72.36
+    usr: www
+    pwd: wwwklosegogogo
+    
+
+redbull:
+    host: 121.40.120.76
+    usr: www
+    pwd: wwwredbullgogogo
+    
+    
+
+#======================new servers======================
+alpaca:
+    host: 112.124.4.53
+    usr: www
+    pwd: wwwalpacagogogo
+    
+    
+lizard:
+    host: 112.124.38.4
+    usr: www
+    pwd: wwwlizardgogogo
+
+    
+vulture:
+    host: 121.40.103.114
+    usr: www
+    pwd: wwwvulturegogogo
+    
+
+dragon:
+    host: 121.40.150.212
+    usr: www
+    pwd: wwwdragongogogo
+    
+    
+phoenix:
+    host: 121.40.143.240
+    usr: www
+    pwd: wwwphoenixgogogo
+    
+    
+mouse:
+    host: 121.40.141.98
+    usr: www
+    pwd: wwwmousegogogo
+    
+    
+tortoise:
+    host: 121.40.102.82
+    usr: www
+    pwd: wwwtortoisegogogo
+
+
+mantis:
+    host: 121.40.145.84
+    usr: www
+    pwd: wwwmantisgogogo
+    
+    
+cicada:
+    host: 121.40.103.180
+    usr: www
+    pwd: wwwcicadagogogo
+    
+
+siskin:
+    host: 121.40.103.143
+    usr: www
+    pwd: wwwsiskingogogo
+    
+    
+ant:
+    host: 218.244.140.165
+    usr: www
+    pwd: wwwantgogogo
+    
+jeep:
+    host: 112.124.67.149
+    usr: www
+    pwd: wwwjeepgogogo
+
+
+
+orz:
+    host: 121.40.212.189
+    usr: www
+    pwd: wwworzgogogo
+
+
+alchemy:
+    host: 121.40.212.171
+    usr: www
+    pwd: wwwalchemygogogo
+
+
+hercules:
+    host: 121.40.212.181
+    usr: www
+    pwd: wwwherculesgogogo
+    
+pioneer:
+    host: 121.40.17.46
+    usr: www
+    pwd: wwwpioneergogogo
+
+
+turbo:
+    host: 121.40.150.213
+    usr: www
+    pwd: wwwturbogogogo
+
+
+mercedes:
+    host: 121.40.103.214
+    usr: www
+    pwd: wwwmercedesgogogo
+
+
+monaco:
+    host: 115.29.167.82
+    usr: www
+    pwd: wwwmonacogogogo
+
+
+bmw:
+    host: 115.29.196.240
+    usr: www
+    pwd: wwwbmwgogogo
+
+apollo:
+    host: 121.43.225.90
+    usr: www
+    pwd: wwwapollogogogo
+
+athena:
+    host: 10.252.129.156
+    usr: www
+    pwd: wwwathenagogogo
+
+zeus:
+    host: 121.43.224.40
+    usr: www
+    pwd: wwwzeusgogogo
+
+hades:
+    host: 121.40.113.222
+    usr: www
+    pwd: wwwhadesgogogo
+
+poseidon:
+    host: 121.40.112.95
+    usr: www
+    pwd: wwwposeidongogogo
+
+venus:
+    host: 218.244.138.99
+    usr: www
+    pwd: wwwvenusgogogo
+
+artemis:
+    host: 115.29.174.10
+    usr: www
+    pwd: wwwartemisgogogo
+
+hera:
+    host: 218.244.144.113
+    usr: www
+    pwd: wwwheragogogo
+
+ares:
+    host: 115.29.173.225
+    usr: www
+    pwd: wwwaresgogogo
+
+eros:
+    host: 218.244.144.129
+    usr: www
+    pwd: wwwerosgogogo
+
+
+
+eros:
+    host: 218.244.144.129
+    usr: www
+    pwd: wwwerosgogogo
+
+
+
+jupiter:
+    host: 120.26.106.190
+    usr: www
+    pwd: wwwjupitergogogo
+
+
+juno:
+    host: 120.26.106.232
+    usr: www
+    pwd: wwwjunogogogo
+
+
+pluto:
+    host: 120.26.106.163
+    usr: www
+    pwd: wwwplutogogogo
+
+
+neptune:
+    host: 120.26.106.203
+    usr: www
+    pwd: wwwneptunegogogo
+
+
+diana:
+    host:  120.26.106.215
+    usr: www
+    pwd: wwwdianagogogo
+
+
+prophet:
+    host: 121.199.5.111
+    usr: www
+    pwd: wwwprophetgogogo
+
+zlw:
+    host: 115.29.195.19
+    usr: www
+    pwd: wwwzlwgogogo
+
+snow:
+    host: 112.124.101.48
+    usr: www
+    pwd: wwwsnowgogogo
+
+renfei:
+    host: 121.41.33.152
+    usr: www
+    pwd: wwwrenfeigogogo
+
+cinder:
+    host: 10.132.31.108
+    usr: www
+    pwd: wwwcindergogogo
+
+
+robin:
+    host: 120.26.218.131
+    usr: www
+    pwd: wwwrobingogogo
+
+
+rc1:
+    host: 115.29.213.187
+    usr: www
+    pwd: wwwrc1gogogo
+
+rc2:
+    host: 121.40.251.129
+    usr: www
+    pwd: wwwrc2gogogo
+
+
+#=====================没有统计专用机器=============================
+chengdu:
+    host: 10.161.244.213
+    usr: www
+    pwd: wwwchengdugogogo
+
+beijing:
+    host: 10.117.210.123
+    usr: www
+    pwd: wwwbeijinggogogo
+
+shanghai:
+    host: 10.252.93.180
+    usr: www
+    pwd: wwwshanghaigogogo
+
+guangzhou:
+    host: 10.252.84.227
+    usr: www
+    pwd: wwwguangzhougogogo
+
+shenzhen:
+    host: 10.252.92.250
+    usr: www
+    pwd: wwwshenzhengogogo
+
+nanjing:
+    host: 10.252.84.200
+    usr: www
+    pwd: wwwnanjinggogogo
+
+shenyang:
+    host: 10.252.90.226
+    usr: www
+    pwd: wwwshenyanggogogo
+
+wuhan:
+    host: 10.252.88.129
+    usr: www
+    pwd: wwwwuhangogogo
+
+lanzhou:
+    host: 10.168.75.142
+    usr: www
+    pwd: wwwlanzhougogogo
+
+tianjin:
+    host: 10.252.85.55
+    usr: www
+    pwd: wwwtianjingogogo
+

@@ -1,0 +1,24 @@
+# /config/application.yml
+dev_defaults: &dev_defaults
+    apns4r_push_host: 'gateway.sandbox.push.apple.com'
+    apns4r_push_port: 2195
+    apns4r_feedback_host: 'feedback.sandbox.push.apple.com'
+    apns4r_feedback_port: 2196
+    profile: true
+    
+pro_defaults: &pro_defaults
+    apns4r_push_host: 'gateway.push.apple.com'
+    apns4r_push_port: 2195
+    apns4r_feedback_host: 'feedback.push.apple.com'
+    apns4r_feedback_port: 2196
+
+##### jjboom iphone ##########
+development:
+  <<: *pro_defaults
+  apns4r_cert_file: <%= Rails.root.join("config","apns_cert", "pub_certkey.pem") %>
+  apns4r_cert_key: <%= Rails.root.join("config","apns_cert", "pub_pkey.pem") %>
+  
+production:
+  <<: *pro_defaults
+  apns4r_cert_file: <%= Rails.root.join("config","apns_cert", "pub_certkey.pem") %>
+  apns4r_cert_key: <%= Rails.root.join("config","apns_cert", "pub_pkey.pem") %>

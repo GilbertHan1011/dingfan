@@ -1,0 +1,53 @@
+
+production:
+  res_dns: http://assets_prefix.qiniucdn.com
+  qiniu_res_dns: http://assets.baicizhan.com
+#  qiniu_res_dns: http://baicizhan.cdn.bj.xs3cnc.com
+  cnc_res_dns: http://baicizhan.cdn.bj.xs3cnc.com
+#  cnc_res_dns: http://assets.baicizhan.com
+  other_res_dns: http://baicizhan.cdn.bj.xs3cnc.com
+  test_res_dns: http://assets.baicizhan.com/test_data
+  data_dns: http://42.121.253.195
+  word_audio_path: /word_audios
+  sentence_audo_path: /sentence_audios
+  word_mini_img_path: /mini_images
+  word_cropped_img_path: /cropped_images
+  word_audio_path_4_api: /word_audios_dat
+  sentence_audo_path_4_api: /sentence_audios_dat
+  deformation_img_path_4_api: /df_transparent
+  sentence_words_trans_dns: http://assets.baicizhan.com/pack/sentence_words_trans
+  word_topic_assets_dns: http://assets.baicizhan.com/pack/word_topic_assets
+  word_topic_assets_list_dns: http://www.baicizhan.com/api/word_topics/assets_info
+  word_topic_assets_zip_dns: http://assets.baicizhan.com/pack_assets
+  book_info_dns: http://assets.baicizhan.com/pack/info
+  apple_iap_verify_url: https://sandbox.itunes.apple.com/verifyReceipt
+  word_fm_audio_path: /word_fm_audio_pack
+  word_tv_path: /word_tv
+  word_tv_snapshot_path: /word_tv_snapshot
+  poster_path: /poster
+  assets_zpk_path: /r
+
+development:
+    res_dns: http://assets_prefix.qiniucdn.com
+    qiniu_res_dns: http://baicizhan.qiniucdn.com
+    other_res_dns: http://baicizhan.b2.qiniudn.com
+    test_res_dns: http://assets.baicizhan.com/test_data
+    data_dns: http://42.121.253.195
+    word_audio_path: /word_audios
+    sentence_audo_path: /sentence_audios
+    word_mini_img_path: /mini_images
+    word_cropped_img_path: /cropped_images
+    word_audio_path_4_api: /word_audios_dat
+    sentence_audo_path_4_api: /sentence_audios_dat
+    deformation_img_path_4_api: /df_transparent
+    sentence_words_trans_dns: http://bukets.b0.upaiyun.com/pack/sentence_words_trans
+    word_topic_assets_dns: http://bukets.b0.upaiyun.com/pack/word_topic_assets
+    word_topic_assets_list_dns: http://www.baicizhan.com/api/word_topics/assets_info
+    word_topic_assets_zip_dns: http://baicizhan2.qiniudn.com/pack_assets
+    book_info_dns: http://bukets.b0.upaiyun.com/pack/info
+    apple_iap_verify_url: https://sandbox.itunes.apple.com/verifyReceipt
+    word_fm_audio_path: /word_fm_audio_pack
+    word_tv_path: /word_tv
+    word_tv_snapshot_path: /word_tv_snapshot
+    poster_path: /poster
+    assets_zpk_path: /r

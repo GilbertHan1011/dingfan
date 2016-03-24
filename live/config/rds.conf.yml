@@ -1,0 +1,267 @@
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  pool: 25
+  reconnect: true
+  host: rdsnzy6jrzu6bja1367990316558.mysql.rds.aliyuncs.com
+  database: jjboom_web_production
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 3
+  read_timeout: 2
+  wait_timeout: 20
+  checkout_timeout: 3
+
+production_live:
+  adapter: mysql2
+  encoding: utf8
+  pool: 25
+  reconnect: true
+  host: rdsnzy6jrzu6bja1367990316558.mysql.rds.aliyuncs.com
+  database: live
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 3
+  read_timeout: 2
+  wait_timeout: 20
+  checkout_timeout: 3
+
+production_account:
+  adapter: mysql2
+  encoding: utf8
+  pool: 25
+  reconnect: true
+  host: rdss63aa84rwo28jruza.mysql.rds.aliyuncs.com
+  database: jjboom_web_production
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 2
+  wait_timeout: 3
+  checkout_timeout: 1
+
+production_topic:
+  adapter: mysql2
+  encoding: utf8
+  pool: 25
+  reconnect: true
+  host: rdsya3qryya3qry.mysql.rds.aliyuncs.com
+  database: jjboom_web_production
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+production_proton:
+  adapter: mysql2
+  encoding: utf8
+  pool: 25
+  reconnect: true
+  host: rdsmzuau2mzuau2.mysql.rds.aliyuncs.com
+  database: jjboom_web_production
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+production_fight:
+  adapter: mysql2
+  encoding: utf8
+  pool: 10
+  reconnect: true
+  host: rdsmzuau2mzuau2.mysql.rds.aliyuncs.com
+  database: fight
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+production_naming:
+  adapter: mysql2
+  encoding: utf8
+  host: rdsnzy6jrzu6bja1367990316558.mysql.rds.aliyuncs.com
+  database: naming
+  pool: 10
+  reconnect: true
+  username: naming
+  password: asdf_123_abc
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+
+production_social:
+  adapter: mysql2
+  encoding: utf8
+  pool: 10
+  reconnect: true
+  host: rdsmzuau2mzuau2.mysql.rds.aliyuncs.com
+  database: social
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+
+production_backup:
+  adapter: mysql2
+  encoding: utf8
+  pool: 15
+  reconnect: true
+  host: 10.165.33.154
+  database: db_backup
+  username: www
+  port: 3366
+  password: qwertyuiop
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+
+
+production_study:
+  adapter: mysql2
+  encoding: utf8
+  pool: 25
+  reconnect: true
+  host: rdsrm5o1mw8ppm40g6cw5.mysql.rds.aliyuncs.com
+  database: jjboom_web_production
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+
+
+
+production_user_words_db1:
+  adapter: mysql2
+  encoding: utf8
+  host: rdsine6j2ine6j2.mysql.rds.aliyuncs.com
+  database: user_words_v3
+  pool: 25
+  reconnect: true
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+
+
+production_user_words_db2:
+  adapter: mysql2
+  encoding: utf8
+  host: rds75gfppvwc8xg1aqadi.mysql.rds.aliyuncs.com
+  database: user_words
+  pool: 25
+  reconnect: true
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+production_user_words_db3:
+  adapter: mysql2
+  encoding: utf8
+  host: rdsbh7l60vi2v3sx8td1.mysql.rds.aliyuncs.com
+  database: user_words
+  pool: 25
+  reconnect: true
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+production_chore:
+  adapter: mysql2
+  encoding: utf8
+  pool: 1
+  reconnect: true
+  host: rds0va685g9y4x2v6077.mysql.rds.aliyuncs.com
+  database: chore
+  username: chore
+  password: asdf_123_abc
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+
+
+production_marketing:
+  adapter: mysql2
+  encoding: utf8
+  pool:  10
+  reconnect: true
+  host: rdsmzuau2mzuau2.mysql.rds.aliyuncs.com
+  database: marketing
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
+
+
+
+production_resource:
+  adapter: mysql2
+  encoding: utf8
+  pool: 1
+  reconnect: true
+  host: rdsp5d58d5qz8w1g078o.mysql.rds.aliyuncs.com
+  database: resource
+  username: query
+  password: IlovebaicizhaN
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+
+
+production_roadmap:
+  adapter: mysql2
+  encoding: utf8
+  pool: 20
+  reconnect: true
+  host: rdsk1r2ke14x7a5jg0l8.mysql.rds.aliyuncs.com
+  database: jjboom_web_production
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 8
+  read_timeout: 5
+  wait_timeout: 20
+  checkout_timeout: 3
+
+
+production_offline:
+  adapter: mysql2
+  encoding: utf8
+  pool: 25
+  reconnect: true
+  host: rds0va685g9y4x2v6077.mysql.rds.aliyuncs.com
+  database: intern
+  username: www
+  password: wwwjiongjigogogo
+  write_timeout: 5
+  read_timeout: 3
+  wait_timeout: 20
+  checkout_timeout: 3
